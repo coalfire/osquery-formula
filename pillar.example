@@ -1,2 +1,3 @@
 osquery:
   conf: https://www.alienvault.com/documentation/resources/downloads/osquery.conf
+  config_hash: 40806474651f6939537708cba54360049654a2932f263f48737ad35274367bda737bb85a385cadf23f64d862d16e35c115b4597591e5d6f39f6f77dfa23990b6
