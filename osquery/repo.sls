@@ -8,7 +8,7 @@ osquery-repo:
     - humanname: osquery
     - name: osquery
     - baseurl: https://s3.amazonaws.com/osquery-packages/centos7/$basearch/
-    - gpgkey = file:///etc/pki/rpm-gpg/OSQUERY-S3-RPM-REPO-GPGKEY
+    - gpgkey: file:///etc/pki/rpm-gpg/OSQUERY-S3-RPM-REPO-GPGKEY
     - gpgcheck: 1
     - repo_gpgcheck: 1
     - require_in:
