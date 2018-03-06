@@ -2,7 +2,9 @@ osquery
 =======
 
 SaltStack formula for installing and configuring
-[osquery](https://osquery.io/)
+osquery_.
+
+.. _osquery: https://osquery.io/
 
 .. note::
 
@@ -44,7 +46,8 @@ Installs osquery.
 ``osquery.config``
 ----------------------------
 
-Provides the configuration file ``/etc/osquery/osquery.conf`` defined in [pillar](pillar.example).
+Provides the configuration file ``/etc/osquery/osquery.conf`` defined in `pillar
+<pillar.example>`_.
 
 ``osquery.service``
 ----------------------------
