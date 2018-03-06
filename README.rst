@@ -44,7 +44,7 @@ Installs osquery.
 ``osquery.config``
 ----------------------------
 
-Provides the configuration file ``/etc/osquery.conf`` defined in [pillar](pillar.example).
+Provides the configuration file ``/etc/osquery/osquery.conf`` defined in [pillar](pillar.example).
 
 ``osquery.service``
 ----------------------------
