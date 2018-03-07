@@ -27,8 +27,7 @@ osquery-repo-key:
 osquery-repo:
   pkgrepo.managed:
     - humanname: osquery
-    - name: deb https://osquery-packages.s3.amazonaws.com/xenial {{ grains.get('oscodename') }} main
-    - dist: {{ grains.get('oscodename') }}
+    - name: deb https://osquery-packages.s3.amazonaws.com/xenial xenial main
     - file: /etc/apt/sources.list.d/osquery.list
     - gpgcheck: 1
     - keyid: 1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B
