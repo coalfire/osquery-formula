@@ -29,7 +29,6 @@ osquery-repo:
   pkgrepo.managed:
     - humanname: osquery
     - name: deb https://osquery-packages.s3.amazonaws.com/xenial {{ grains.get('oscodename') }} main
-    - name: deb https://download.newrelic.com/infrastructure_agent/linux/apt {{ grains.get('oscodename') }} main
     - dist: {{ grains.get('oscodename') }}
     - file: /etc/apt/sources.list.d/osquery.list
     - gpgcheck: 1
