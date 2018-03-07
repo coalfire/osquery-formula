@@ -5,7 +5,7 @@
 
 osquery-service:
   service.running:
-    - name: osquery
+    - name: osqueryd
     - enable: True
     - reload: True
     - watch:
