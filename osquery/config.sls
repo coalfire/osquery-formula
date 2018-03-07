@@ -12,5 +12,6 @@ osquery-config:
     - group: root
     - source: {{ config }}
     - source_hash: {{ config_hash }}
+    - makedirs: True
     - require_in:
       - pkg: osquery-package
